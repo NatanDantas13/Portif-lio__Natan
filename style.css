@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600; 1.600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.destaque01ti {
+    color: #06bed6;
+}
+
+.apresentacao {
+    margin: 5% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+}
+
+.apresentacao__conteudo {
+    width: 660px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family:"Krona One", sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.imagem-css {
+    margin-top: 20%;
+    width: auto;
+}
+
+.apresentacao__links {
+    display:flex; /*display: flex; é um comando CSS que transforma um elemento pai em um container flexível. Isso permite organizar os elementos filhos de forma flexível em relação ao layout da página.*/
+    justify-content:space-between; /*Distribui os itens igualmente no container, com espaços iguais entre eles. O primeiro item fica no início do container e o último item no final.*/
+    ;/*Formas de apresentação de uma DIV, em coluna em linha, neste caso está sendo usado para coluna, botão em baixo do outro*/
+    align-items: center; /*Centarlizar os itens, botão texto etc*/
+    gap: 32px; /*Aumenta o espaçamento dos elementos dentro do elemento pai*/
+}
+
+.apresentacao__links__redes{
+    font-family: "Krona One", sans-serif; /*Alteração da font*/
+    font-weight: 400;/*Alteração do peso da font*/
+    font-size: 18px; /*Tamanho da font*/
+}
+
+.apresentacao__links__link {
+    background-color: transparent;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    border: 2px solid #06bed6;
+    font-size: 24px;
+    padding: 21.5px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apresentacao__links__link:hover{
+    background-color: #06bed6;
+    color: #ffffff;
+}
+
+nav {
+    padding: 10px 0;
+    background-color: #0c0c0c;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    display: flex;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.destaque__descrição{
+    color: #06bed6;
+}
+
+
+.projetos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 125px;
+    gap: 80px;
+    margin: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.projeto {
+    width: 40%;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 300px;
+}
+
+.projeto img {
+    width: 80px;
+    height: 80px; 
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.projeto__descricao {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.projeto__link {
+    background-color: #06bed6;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.projeto__link:hover {
+    background-color: #0699b0;
+}
